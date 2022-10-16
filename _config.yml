@@ -125,9 +125,11 @@ search:
   path: search.xml
   field: post
 
+# 图片懒加载
 lazyload:
   enable: true
   onlypost: false
   loadingImg: /medias/lazy/loading3.gif
 
+# 静态资源压缩
 all_minifier: true

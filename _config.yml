@@ -124,3 +124,10 @@ feed:
 search:
   path: search.xml
   field: post
+
+lazyload:
+  enable: true
+  onlypost: false
+  loadingImg: /medias/lazy/loading3.gif
+
+all_minifier: true

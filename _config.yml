@@ -46,17 +46,18 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+
 highlight:
-  enable: true
-  line_number: true
+  enable: false
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
-  line_number: true
+  line_number: false
   tab_replace: ''
 
 # Home page setting
@@ -132,4 +133,4 @@ lazyload:
   loadingImg: /medias/lazy/loading3.gif
 
 # 静态资源压缩
-all_minifier: true
+all_minifier: false

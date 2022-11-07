@@ -152,13 +152,13 @@ indexbtn:
   enable: true
   name: Github
   icon: fab fa-github-alt
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/yutanzhang
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  github:  
+  github: https://github.com/yutanzhang
   email: listyle36@163.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
@@ -255,7 +255,7 @@ snowdown:
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: /medias/avatar.jpg
+  avatar: /medias/avatar.png
   career: Java工程师
   introduction: 思从深而行从简
 
@@ -409,8 +409,8 @@ changyan:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/blinkfox/hexo-theme-matery
-  title: Fork Me
+  url: https://github.com/yutanzhang
+  title: 访问我的GitHub
 
 # The configuration of the Twikoo comment module is not activated by default.
 # To use it, activate the configuration item and set envId.

@@ -13,6 +13,12 @@
                 <span id="year"><%- theme.time.year %></span>
             <% } %>
             <a href="<%- url_for('/about') %>" target="_blank"><%- config.author %></a>
+            |&nbsp;<% if (theme.icp.enable) { %>
+                <span id="icp"><img src="<%- theme.jsDelivr.url %><%- url_for('/medias/icp.png') %>"
+                                    style="vertical-align: text-bottom;"/>
+                <a href="<%- url_for(theme.icp.url) %>" target="_blank"><%= theme.icp.text %></a>
+            </span>
+            <% } %>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
@@ -82,12 +88,6 @@
                 <img src="/medias/youpai_logo.png" width="65px">
             </a>提供CDN加速/云存储服务
             <br>
-            <% if (theme.icp.enable) { %>
-                <span id="icp"><img src="<%- theme.jsDelivr.url %><%- url_for('/medias/icp.png') %>"
-                                    style="vertical-align: text-bottom;"/>
-                <a href="<%- url_for(theme.icp.url) %>" target="_blank"><%= theme.icp.text %></a>
-            </span>
-            <% } %>
         </div>
         <div class="col s12 m4 l4 social-link <%- socialClass %>"><%- partial('_partial/social-link') %></div>
     </div>

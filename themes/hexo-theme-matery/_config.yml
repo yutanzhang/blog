@@ -312,9 +312,9 @@ mySkills:
 myGallery:
   enable: true
   data:
-    - /medias/featureimages/0.jpg
-    - /medias/featureimages/1.jpg
-    - /medias/featureimages/2.jpg
+    - http://pic.tanzhang.work/blog/gallary/1.jpg
+    - http://pic.tanzhang.work/blog/gallary/2.jpg
+    - http://pic.tanzhang.work/blog/gallary/3.jpg
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
@@ -528,30 +528,10 @@ libs:
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages:
-- /medias/featureimages/0.jpg
-- /medias/featureimages/1.jpg
-- /medias/featureimages/2.jpg
-- /medias/featureimages/3.jpg
-- /medias/featureimages/4.jpg
-- /medias/featureimages/5.jpg
-- /medias/featureimages/6.jpg
-- /medias/featureimages/7.jpg
-- /medias/featureimages/8.jpg
-- /medias/featureimages/9.jpg
-- /medias/featureimages/10.jpg
-- /medias/featureimages/11.jpg
-- /medias/featureimages/12.jpg
-- /medias/featureimages/13.jpg
-- /medias/featureimages/14.jpg
-- /medias/featureimages/15.jpg
-- /medias/featureimages/16.jpg
-- /medias/featureimages/17.jpg
-- /medias/featureimages/18.jpg
-- /medias/featureimages/19.jpg
-- /medias/featureimages/20.jpg
-- /medias/featureimages/21.jpg
-- /medias/featureimages/22.jpg
-- /medias/featureimages/23.jpg
+- http://pic.tanzhang.work/blog/featureimages/1.jpg
+- http://pic.tanzhang.work/blog/featureimages/2.jpg
+- http://pic.tanzhang.work/blog/featureimages/3.jpg
+
 
 # default configs that the default policy for every articles/posts
 # default 配置文章的默认转载规则
@@ -651,9 +631,9 @@ banner:
 
 #ICP备案信息尾部显示
 icp:
-  enable: false
-  url: # 备案链接
-  text: # 备案信息
+  enable: true
+  url: https://beian.miit.gov.cn/#/Integrated/index
+  text: 赣ICP备2022009661号-1
 
 # CDN访问加速 
 # 第一次使用本功能，一定要先配置url，再`hexo cl && hexo g && hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！

@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Yutanzhang
-subtitle: 'Yu探长'
-description: 'I had a dream and i make it beautiful'
+title: 青蛙瓷器's BLOG
+subtitle: "青蛙瓷器"
+description: ''
 keywords:
-author: litianyi
+author: Li
 language: zh-CN
 timezone: ''
 
@@ -128,7 +128,7 @@ search:
 
 # 图片懒加载
 lazyload:
-  enable: true
+  enable: false
   onlypost: false
   loadingImg: /medias/lazy/loading3.gif
 

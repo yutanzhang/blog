@@ -1,11 +1,11 @@
 ---
-title: 本地事务实现原理解析
+title: 一文搞懂本地事务的实现原理
 date: 2022-11-04 22:39:48
 author: litianyi
-img: /medias/banner/1.jpg
+img: 
 top: true
 cover: true
-coverImg: /medias/banner/1.jpg
+coverImg: 
 toc: true
 mathjax: false
 summary: 系统阐述事务的四大特性以及不同隔离级别的实现方式

@@ -312,9 +312,9 @@ mySkills:
 myGallery:
   enable: true
   data:
-    - http://pic.tanzhang.work/blog/gallary/1.jpg
-    - http://pic.tanzhang.work/blog/gallary/2.jpg
-    - http://pic.tanzhang.work/blog/gallary/3.jpg
+    - http://pic.tanzhang.work/blog/featureimages/1.jpg
+    - http://pic.tanzhang.work/blog/featureimages/2.jpg
+    - http://pic.tanzhang.work/blog/featureimages/3.jpg
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件

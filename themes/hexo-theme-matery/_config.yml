@@ -377,17 +377,17 @@ tcaptcha:
 # To use it, activate the configuration item and set appId and appKey.
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
-  enable: false
-  appId:  # 必填
-  appKey: # 必填
-  serverURLs: # 必填 https://你的api
+  enable: true
+  appId:  VwWeOu2LibyWlvJuwKbCBJmu-MdYXbMMI # 必填
+  appKey: 6wGNjkxmwekhAB4y7BA5Ynq9 # 必填
+  serverURLs: https://vwweou2l.api.lncldglobal.com # 必填 https://你的api
   notify: false
   verify: false
   visitor: true
   avatar: 'mm' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
   pageSize: 10
-  placeholder: 'just go go' # Comment Box placeholder
-  background: /medias/comment_bg.png
+  placeholder: '快来发表评论吧~' # Comment Box placeholder
+  background: 
   coolpushkey: 
 
 # The configuration of the Waline comment module is not activated by default.

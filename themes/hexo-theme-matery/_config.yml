@@ -377,7 +377,7 @@ tcaptcha:
 # To use it, activate the configuration item and set appId and appKey.
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
-  enable: true
+  enable: false
   appId:  VwWeOu2LibyWlvJuwKbCBJmu-MdYXbMMI # 必填
   appKey: 6wGNjkxmwekhAB4y7BA5Ynq9 # 必填
   serverURLs: https://vwweou2l.api.lncldglobal.com # 必填 https://你的api
@@ -395,10 +395,10 @@ valine:
 # Waline 评论模块的配置，默认为不激活，如要使用，就请激活该配置项
 # See: https://waline.js.org/
 waline:
-  enable: false
+  enable: true
   # Waline 服务端部署参考 https://waline.js.org/guide/server/intro.html 客户端和服务端版本需一致
   # 下面是一个例子，请替换成自己的服务端
-  serverURL: https://waline.your-domain.com
+  serverURL: https://waline.tanzhang.work
   avatar: 'mp' # Gravatar style : ''/mp/identicon/monsterid/wavatar/retro/hide
 
 changyan:

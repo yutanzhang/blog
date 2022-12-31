@@ -5,16 +5,16 @@ menu:
     url: /
     icon: fas fa-home
   Tags:
-    url: /tags
+    url: /tags/
     icon: fas fa-tags
   Categories:
-    url: /categories
+    url: /categories/
     icon: fas fa-bookmark
   Archives:
-    url: /archives
+    url: /archives/
     icon: fas fa-archive
   About:
-    url: /about
+    url: /about/
     icon: fas fa-user-circle
   # Contact:
   #   url: /contact

@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
     .waline-card {
         margin: 1.5rem auto;
     }
@@ -187,7 +187,7 @@
         left: unset;
         visibility: visible;
     }
-  </style>
+  </style> -->
   
   <div class="card waline-card" data-aos="fade-up">
     <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
@@ -202,9 +202,9 @@
   <!-- <script src="//cdn.jsdelivr.net/npm/@waline/client"></script> -->
   <script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.waline) %>"></script>
   <script>
-    new Waline({
+    Waline({
         el: '#waline',
         serverURL: '<%- theme.waline.serverURL %>',
-        avatar: '<%- theme.valine.avatar %>'    
+        avatar: '<%- theme.waline.avatar %>'    
     });
   </script> 

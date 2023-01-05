@@ -312,9 +312,9 @@ mySkills:
 myGallery:
   enable: true
   data:
-    - http://pic.tanzhang.work/blog/featureimages/1.jpg
-    - http://pic.tanzhang.work/blog/featureimages/2.jpg
-    - http://pic.tanzhang.work/blog/featureimages/3.jpg
+    - http://pic.tanzhang.work/blog/featureimages/1.jpg!up.webp
+    - http://pic.tanzhang.work/blog/featureimages/2.jpg!up.webp
+    - http://pic.tanzhang.work/blog/featureimages/3.jpg!up.webp
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
@@ -528,9 +528,9 @@ libs:
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages:
-- http://pic.tanzhang.work/blog/featureimages/1.jpg
-- http://pic.tanzhang.work/blog/featureimages/2.jpg
-- http://pic.tanzhang.work/blog/featureimages/3.jpg
+- http://pic.tanzhang.work/blog/featureimages/1.jpg!up.webp
+- http://pic.tanzhang.work/blog/featureimages/2.jpg!up.webp
+- http://pic.tanzhang.work/blog/featureimages/3.jpg!up.webp
 
 
 # default configs that the default policy for every articles/posts

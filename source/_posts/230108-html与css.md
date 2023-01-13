@@ -1,5 +1,5 @@
 ---
-title: 后端人员的前端入门课(1)-html与css
+title: 前端基础(1)-html与css
 img: 'http://pic.tanzhang.work/blog/gallary/230108.jpg!up.webp'
 top: false
 cover: false

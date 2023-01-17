@@ -104,7 +104,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-matery
+theme: hexo-theme-butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -150,3 +150,7 @@ lazyload:
 
 # 静态资源压缩
 all_minifier: false
+
+aplayer:
+  meting: false
+  asset_inject: false

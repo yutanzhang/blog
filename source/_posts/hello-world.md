@@ -3,7 +3,7 @@ title: hexo 使用方法介绍
 author: 青蛙瓷器
 top: false
 hide: true
-cover: false
+cover: 
 toc: true
 mathjax: false
 categories: 博客

@@ -2,7 +2,7 @@
 title: 前端基础(2)-javascript
 img: 'http://pic.tanzhang.work/blog/gallary/230113.png!up.webp'
 top: false
-cover: false
+cover: 'http://pic.tanzhang.work/blog/gallary/230113.png!up.webp'
 toc: true
 categories: 前端
 tags:
@@ -163,7 +163,7 @@ document.write(arr);
 ```javascript
 var aa=arr.shift();
 document.write(arr);
-document.write(aa);     
+document.write(aa);   
 ```
 
 5.删除末尾数据，并且返回被删除的数据

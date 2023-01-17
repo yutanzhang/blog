@@ -2,7 +2,7 @@
 title: 前端基础(1)-html与css
 img: 'http://pic.tanzhang.work/blog/gallary/230108.jpg!up.webp'
 top: false
-cover: false
+cover: 'http://pic.tanzhang.work/blog/gallary/230108.jpg!up.webp'
 toc: true
 categories: 前端
 tags:

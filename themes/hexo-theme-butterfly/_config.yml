@@ -673,7 +673,7 @@ aside:
       link: https://github.com/yutanzhang
   card_announcement:
     enable: true
-    content: 新春快乐！
+    content: 文章内容均来自书籍和网络，由笔者整理撰写而成，如由侵权内容，请联系笔者删除，谢谢合作。
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all

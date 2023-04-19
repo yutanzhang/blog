@@ -35,7 +35,7 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/yutanzhang || Github
+  fab fa-github: https://github.com/liwella || Github
   fas fa-envelope: mailto:listyle36@163.com || Email
 
 # search (搜索)
@@ -670,7 +670,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/yutanzhang
+      link: https://github.com/liwella
   card_announcement:
     enable: true
     content: 文章内容均来自书籍和网络，由笔者整理撰写而成，如由侵权内容，请联系笔者删除，谢谢合作。
